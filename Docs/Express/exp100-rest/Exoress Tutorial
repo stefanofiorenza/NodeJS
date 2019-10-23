@@ -1,0 +1,39 @@
+
+Express Tutorial
+
+01 Starter:
+
+1) setup package.json
+npm init
+
+2) Install dependencies:
+npm install express body-parser --save
+
+3) Create App file (to run with node js)
+touch App.js
+
+In App.js
+
+
+1) Imports
+const express = require('express');
+
+2) Create Express
+	const app = express();
+
+3) Create endpoint (url)
+// get data in json
+app.get('/api/v1/basic', (req, res) => {
+    res.status(200).send({
+      success: 'true',
+      message: 'some data from express endpoint'
+    })
+});
+
+
+5) Start Node Server on http and port
+
+Ruolo Babel: per ES 6
+https://medium.com/@purposenigeria/build-a-restful-api-with-node-js-and-express-js-d7e59c7a3dfb
+
+

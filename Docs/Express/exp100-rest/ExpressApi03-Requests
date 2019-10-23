@@ -1,0 +1,38 @@
+
+Verificare se serve bodyParser middleware in Express 4
+
+1) parse QueryString Params
+ res.body
+ 
+2) named route parameters (Parse Path Parameters)
+
+
+3) Parse Http POST Body
+
+4) Parse Http Request headers 
+
+5) Mappping exceptions
+
+
+6) Parse multipart Http Request
+http://derpturkey.com/node-multipart-form-data-explained/
+
+
+7) Parse Http Request Cookie
+
+
+
+
+8) Mock Rest Api:
+https://expressjs.com/en/resources/middleware/serve-index.html
+
+
+Express:
+	2 types of Endpoints: 
+	Rest Endpoint
+	Form Handler
+
+Node:
+- Expose Rest Api
+- Web Application (dynamic pages)
+- Web Site (static resources)

@@ -1,0 +1,28 @@
+Demo01:
+curl http://localhost:5000/api/v1/basic
+
+Demo02:
+curl  -X GET http://localhost:5000/api/v1/basic
+curl  -X POST http://localhost:5000/api/v1/basic
+curl  -X PUT http://localhost:5000/api/v1/basic
+curl  -X DELETE http://localhost:5000/api/v1/basic
+
+Demo03:
+
+E1:
+curl  -X GET http://localhost:5000/api/v1/basic/querystring?firstname=Stefano&lastname=Fiorenza
+
+E2:
+curl  -X GET http://localhost:5000/api/v1/basic/users/Stefano/Fiorenza
+
+E3:
+curl -X POST -H "Content-Type: application/json" \
+     -d '{"firstname":"Stefano","lastname":"Fiorenza"}' \
+    http://localhost:5000/api/v1/basic
+
+E4:
+curl -X GET -H "Content-Type: application/json" -H "accept: application/json"  http://localhost:5000/api/v1/basic/headers
+
+
+E5:
+curl -X GET -H "Content-Type: application/json" -H "accept: application/json"  http://localhost:5000/api/v1/basic/headers
