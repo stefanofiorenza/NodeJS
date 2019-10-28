@@ -1,0 +1,34 @@
+
+1) Request Response properties
+
+2) FORM:
+Login with hardcoded user and pw
+
+3) STATIC RESOURCES
+Deliver hmtl page and related css and img
+
+4) VIEW TEMPLATES:
+Jade, Eis
+
+5) State Management
+Cookie
+sessions
+
+6) Rest Api:
+Design Api for app (mock Response and comment in code)
+
+7) Implement basic Api UC:
+- Http verbs
+- Formats IO (json, xml, excel, pdf)
+- http requests (headers, path params, http body, query string params)
+- Pagination
+- Caching
+
+8) Secure Api
+
+9) Swagger:
+
+10) Env Management
+
+benchmarking
+http://httpd.apache.org/docs/2.2/programs/ab.html
