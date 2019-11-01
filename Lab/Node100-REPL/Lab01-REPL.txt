@@ -1,0 +1,5 @@
+From REPL Terminal:
+
+1) Read Shipment.js file
+2) filter all records with status 'delivered'
+3) save all delivered records in a Delivered.js file

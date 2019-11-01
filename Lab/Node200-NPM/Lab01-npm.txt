@@ -1,0 +1,13 @@
+1) Setup a project with a package.json file
+
+2) lodash-test.js
+Using lodash library:
+Write on console:
+2.1) install lodash library locally
+2.2) first, last, max, min element from inputArray
+2.3) Chunk array with a size of 3 elements (and print the chunked version array on console)
+2.4) shuffle array and print it before and after
+
+3) myLibrary.js
+3.1) Create a function and a const and export both of them
+3.2) Import both function and const and test them in another file (myLibraryTest.js)

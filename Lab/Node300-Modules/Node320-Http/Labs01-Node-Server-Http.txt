@@ -1,0 +1,20 @@
+1) Lab Http Verbs and Uri
+
+	Path: 				Method		Status		ResponseData:	
+	"/"					*			200			{"message":"this is the default path. Please refer to api documentation"}
+	"/user/1"			GET			200			{"firstName":"<Your_first_name>","lastName":"<Your_last_name>"}
+	"/user/1"			POST		200			<ECHO_DATA_SENT>
+	"/user"				PUT			200			<ECHO_DATA_SENT>
+	"/user"				DELETE		200			{"message":"user deleted"}
+	All others			*			404			{"message":"resource unavailable"}
+
+2) Lab Http Backend actions on filesystem
+
+	Create a copy of previous api that exposes same services backed on file system.
+	10 files: user-<id>.json
+
+	Path: 				Method			Action: 
+	"/user/<id>"		GET				Return user with id:<id>
+	"/user/<id>"		POST			Update file user-<id> and return a confirmation message
+	"/user"				PUT				Create a new file with id increased by one and return a confirmation message
+	"/user"				DELETE			Delete relevant user-<id> file and return a confirmation message
