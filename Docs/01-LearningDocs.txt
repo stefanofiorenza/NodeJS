@@ -1,0 +1,42 @@
+
+
+	React Tic Tac Toe Tutorial (Intro to React tutorial)
+	https://reactjs.org/tutorial/tutorial.html
+	Git:
+
+	React Documentation (Tutorial)
+	https://reactjs.org/docs/getting-started.html
+	Git:
+	
+
+
+
+
+CREATE REACT:
+
+https://github.com/stefanofiorenza/create-react-app-facebook-documentation/blob/master/README.md
+
+
+
+
+
+
+PERFORMANCES:
+
+	Official at Facebook
+	https://reactjs.org/docs/optimizing-performance.html#examples
+
+	Immutable or not? (only useful with shouldComponentUpdate override)
+	https://www.bennadel.com/blog/2903-why-should-i-care-about-immutable-data-in-reactjs.htm
+	
+	Immutable and Virtual DOM (shouldComponentUpdate)
+	https://nickdrane.com/leveraging-immutability-in-react/
+
+	Reconciliation:
+	https://reactjs.org/docs/reconciliation.html
+
+	Virtual DOM:
+	https://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/
+
+	Immutability and Virtual DOM
+	https://reactkungfu.com/2015/08/pros-and-cons-of-using-immutability-with-react-js/

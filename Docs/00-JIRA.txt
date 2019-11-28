@@ -1,0 +1,22 @@
+Introduction (slides from)
+https://www.tutorialspoint.com/nodejs/nodejs_repl_terminal.htm
+	Runtime environment:
+	REPL
+	NPM
+
+Modules:
+	Export module
+	Import module
+	http
+	fs
+	events
+
+Advanced concepts
+	Callback
+	Event
+	Event Loop and performances
+
+Express framework
+
+	Path support
+	HTTP Verbs

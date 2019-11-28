@@ -1,0 +1,65 @@
+
+1,2) Starter with example function
+Starter and test utility
+
+3) Function definition:
+	different type of declaration and invocation
+ 
+	 3.1) var = function
+	 var, let, const <functionName> = function ...
+	 
+	 3.2) function <name>
+	 
+	 3.3) arrow function
+	 var <name> = (args) =>{function body}
+ 
+4) Arguments in ES6:
+
+	standard JS: object arguments
+	Default parameters
+
+5) Arguments and Rest args
+
+	pitfalls with arguments:
+	
+	1) arguments is not an array
+	While arguments respond to the length property, and allow us to use the subscript([]) it is not an array.
+	We cant use sort() or filter().
+	We need to map args into an array if we want to use them as array
+	
+	2) can't make difference between mandatory and optional arguments
+		
+	3) function definition is less readable
+	
+	Solution (..restParameters)
+	
+	QA:
+	1) Change test to verify logic and inputs => default is zero output
+	2) Verify 2 design of same funtions
+	
+
+QA and Labs:
+
+	Questions:
+
+	what happens if 
+		1) I call arguments.sort() in a function with variable parameters?
+		2) I put a default parameter in a function on the right of mandatory ones?
+		3) I put rest parameters as first arguments of the function argument list?
+		4) I assign a default value to rest parameters?
+		5) I pass parameters to an empty arrow function?
+	
+	what is best practice in 
+		6) usage of default arguments?
+		7) usage of rest arguments?
+		
+
+	Labs:
+		1) Statistics with functions ()
+		2) Overload in statistics (same method)
+		3)Array of Objects
+		Invoice Calculation (currency, date, items, discounts (item_id, discount))
+		- vat 20 items
+		- discount to item. deduct from amount, and vat calculation
+		- items ordered by date
+	

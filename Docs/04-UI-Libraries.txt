@@ -1,0 +1,12 @@
+
+
+
+Storybook (to learn)
+https://storybook.js.org/
+https://github.com/storybookjs/storybook
+
+
+
+
+Animation library
+https://www.react-spring.io/

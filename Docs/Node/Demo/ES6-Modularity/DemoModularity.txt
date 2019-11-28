@@ -1,0 +1,20 @@
+
+
+1) requires/exports
+	exports.function
+	exports.property
+	
+	const moduleAsVar =requires(path)
+	... moduleAsVar.func
+	
+2) import/export 
+
+	module.mjs
+	
+	 //1) import default from module (whole Cat class)
+	import Cat from './D03ModuleAsClass.mjs';
+
+	 //2) import some visible module members
+	 import {area, circumference,name} from './D03Module.mjs';
+	 
+	 > node --experimental-modules D03ModuleTest.mjs
