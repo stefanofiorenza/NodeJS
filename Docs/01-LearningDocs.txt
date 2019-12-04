@@ -1,42 +1,34 @@
 
+NodeJs
 
-	React Tic Tac Toe Tutorial (Intro to React tutorial)
-	https://reactjs.org/tutorial/tutorial.html
-	Git:
+Guides:
 
-	React Documentation (Tutorial)
-	https://reactjs.org/docs/getting-started.html
-	Git:
-	
-
-
-
-
-CREATE REACT:
-
-https://github.com/stefanofiorenza/create-react-app-facebook-documentation/blob/master/README.md
+	Basic:
+		Basic 	
+		https://www.html.it/pag/32816/i-moduli-di-nodejs/
+		
+		https://www.w3schools.com/nodejs
+		https://www.tutorialspoint.com/nodejs
+		https://www.airpair.com/javascript/node-js-tutorial#3-node-fundamentals
+		https://stackify.com/learn-nodejs-tutorials/
 
 
-
+	Basic to Intermediate
+		https://nodejs.dev/introduction-to-nodejs
+		https://www.guru99.com/node-js-tutorial.html
 
 
 
-PERFORMANCES:
 
-	Official at Facebook
-	https://reactjs.org/docs/optimizing-performance.html#examples
+	To be reviewed:
 
-	Immutable or not? (only useful with shouldComponentUpdate override)
-	https://www.bennadel.com/blog/2903-why-should-i-care-about-immutable-data-in-reactjs.htm
-	
-	Immutable and Virtual DOM (shouldComponentUpdate)
-	https://nickdrane.com/leveraging-immutability-in-react/
-
-	Reconciliation:
-	https://reactjs.org/docs/reconciliation.html
-
-	Virtual DOM:
-	https://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/
-
-	Immutability and Virtual DOM
-	https://reactkungfu.com/2015/08/pros-and-cons-of-using-immutability-with-react-js/
+	static resources:
+		https://alligator.io/nodejs/serving-static-files-in-express/
+		http://expressjs.com/en/starter/static-files.html
+		https://www.tutorialsteacher.com/nodejs/serving-static-files-in-nodejs
+		
+		
+	Express:
+		https://expressjs.com/en/resources/middleware/serve-index.html
+		https://expressjs.com/en/starter/basic-routing.html
+		http://expressjs.com/en/starter/static-files.html
