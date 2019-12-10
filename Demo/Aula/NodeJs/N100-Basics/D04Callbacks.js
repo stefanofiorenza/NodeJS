@@ -21,9 +21,11 @@ dns.resolve4('www.google.com', function(err, addresses) {
 */
 
 /* with arrow functions */
+/*
 dns.resolve4('www.google.com', (err, addresses) =>{  
   if (err) throw err;
   console.log('addresses: ' + JSON.stringify(addresses));
 });
+*/
 
 
