@@ -2,3 +2,10 @@
 D03:
 > export PORT=6000
 > unset PORT
+
+
+/*D07: Test Static content in public dir */
+In browser:
+http://127.0.0.1:8125/about.html
+http://127.0.0.1:8125/galeon.jpg
+http://127.0.0.1:8125/somethingNotFound

@@ -15,8 +15,8 @@ var myEventHandler = function (e) {
   console.log('Event detected: ',e);
 }
 
-//3) Assign the event handler to an event:
+//2) Assign the event handler to an event:
 eventEmitter.on('notification', myEventHandler);
 
-//2) Fire the 'scream' event:
+//3) Fire the 'scream' event:
 eventEmitter.emit('notification',{data:'read your email'});

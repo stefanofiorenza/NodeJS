@@ -2,3 +2,11 @@
 > npm init
 > npm install express --save
 > npm install pug --save
+
+
+QA:
+
+
+http://127.0.0.1:3000/galeon.html  -> finds the one in /public
+http://127.0.0.1:3000/galeon-file.jpg  -> finds the one in /files
+
